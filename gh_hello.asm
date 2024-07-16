@@ -17,7 +17,7 @@ _main:
 	mov		rcx, 0
 	lea		rdx, [msgBoxContent]
 	lea		r8, [msgBoxTitle]
-	mov		r9, 0
+	mov		r9, 48
 	call	MessageBoxA
 
 	xor		rax, rax

@@ -3,7 +3,7 @@ bits 64
 
 section .data
 	msgBoxTitle db "Neat title here...", 0
-	msgBoxContent db "Created this nasm assembly (targetting x86-64 Windows 64-bit), or as much as I could with a lack of real system calls on windows, i.e. the 'native system services'", 0
+	msgBoxContent db "Content of message box", 0
 
 section .text
 	global _main
